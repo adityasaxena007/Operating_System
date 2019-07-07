@@ -1,0 +1,17 @@
+how to run 
+
+1) change the path for storing the iso file in command make mykernel.iso in make file 
+grub-mkrescue --output=/home/aditya/Downloads/build/mykernel.iso iso
+
+2) start virtual box 
+
+3) make a virtual machine having type as other and type as other/unknown and name as My Operating System
+
+4) memory size 32 mb
+
+5) hard disk select- not add a virtual hard disk
+
+6) open terminal type 
+	1) make clean
+	2) make run 
+	3) virtual machine will run (locate the mykernel.iso file (for the first time))

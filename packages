@@ -1,0 +1,5 @@
+Packages to install
+
+1) VirtualBox - for running our os
+2) grub-legacy
+3) xorriso - for making an iso file
